@@ -1,0 +1,96 @@
+/*Index CSS*/
+
+*,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-container{
+ background-color: rgb(0, 0, 0);
+ width: 100%;
+ height: 10vh;
+ 
+}
+.ul-navbar{
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.li-navbar{
+list-style-type: none;
+padding: 10px;
+margin: 5px;
+font-size: 30px;
+}
+
+.li-navbar:hover {
+    background-color: white;
+    transition: .1s ease-in-out;
+    transition-delay: .2s;
+    border-radius: 15px;
+
+}
+
+.a-navbar{
+color:orange;
+text-decoration: none;
+font-weight: 800;
+}
+
+.img-content{
+    max-width: 70%; /* Agar gambar tidak melebihi ukuran container */
+    height: auto;   /* Memastikan proporsi gambar tetap */
+    border-radius: 10% 
+    
+
+    
+}
+.content-1{
+    background-image: url(Asset/background1.jpg);
+    background-repeat: no-repeat;
+     background-attachment: fixed;
+     background-size: cover ;
+    display: flex;
+    justify-content: center; /* Mengatur posisi horizontal */
+    align-items: center;     /* Mengatur posisi vertikal */
+    height: 80vh;
+
+}
+
+.a-content {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+    border-radius: 80px;
+    width: 720px;
+    height: 600px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);;
+
+}
+
+.footer-1 {
+    background-color: black;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.h1-footer {
+font-size: 50px;
+color: orange;
+}
+
+

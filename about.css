@@ -1,0 +1,150 @@
+*,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-container{
+ background-color: rgb(0, 0, 0);
+ width: 100%;
+ height: 10vh;
+ 
+}
+.ul-navbar{
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.li-navbar{
+list-style-type: none;
+padding: 10px;
+margin: 5px;
+font-size: 30px;
+}
+
+.li-navbar:hover {
+    background-color: white;
+    transition: .1s ease-in-out;
+    transition-delay: .2s;
+    border-radius: 15px;
+
+}
+
+
+.h1-div {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    border-radius: 5%;
+    margin: 25px;
+
+    
+}
+.a-navbar{
+color:orange;
+text-decoration: none;
+font-weight: 800;
+
+}
+
+.img-content{
+    width: 20%;
+	border: 2px solid rgb(0, 0, 0);
+    margin: 1%;
+    border-radius: 20%;
+
+}
+.text-container {
+    text-shadow: 2px 2px 0 orange, -2px -2px 0 orange, 2px -2px 0 orange, -2px 2px 0 orange;
+}
+
+.a-motor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.img-motor1 {
+    width: 25%;
+    height: 10%;
+    border-radius: 15%;
+    margin: 2%;
+}
+
+.img-motor2 {
+    width: 19%;
+    height: 10%;
+    border-radius: 15%;
+    margin: 2%;
+}
+
+.img-motor3 {
+    width: 19%;
+    height: 10%;
+    border-radius: 15%;
+    margin: 2%;
+}
+
+.img-motor4 {
+    width: 25%;
+    height: 10%;
+    border-radius: 15%;
+    margin: 2%;
+}
+
+.img-motor5 {
+    width: 19%;
+    height: 10%;
+    border-radius: 15%;
+
+}
+.img-motor6 {
+    width: 22%;
+    height: 10%;
+    border-radius: 15%;
+    margin: 2%;
+
+}
+.content-1{
+    background-image: url(Asset/background2.jpg);
+    background-repeat: no-repeat;
+     background-attachment: fixed;
+     background-size: cover ;
+
+}
+
+.a-content {
+    color: black;
+    text-decoration: none;
+    font-size: 45px;
+    display: flex;
+    justify-content: center;
+
+
+}
+.h1-motor {
+    background-attachment: fixed;
+    text-align: center;
+    color: orange;
+    background-color: black;
+    width: 100%;
+    
+}
+.h1-footer {
+font-size: 50px;
+color: rgb(255, 166, 0);
+}
+
+.footer-1 {
+    background-color: black;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
